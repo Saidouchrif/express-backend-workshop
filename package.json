@@ -4,7 +4,8 @@
   "description": "Workshop pratique de développement backend avec Express.js, axé sur l’architecture propre, la conception d’API REST évolutives, les middlewares et les stratégies d’authentification.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Saidouchrif/express-backend-workshop/issues"
   },
